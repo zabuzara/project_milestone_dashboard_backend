@@ -1,0 +1,159 @@
+{
+  "Collections": {
+    // Validation for Department collection
+    "Department": {
+      "$jsonSchema": {
+        "required": [
+          "_id",
+          "Name"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "objectId"
+          },
+          "Name": {
+            "bsonType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          }
+        },
+        "maxProperties": 2,
+        "additionalProperties": false
+      }
+    },
+    // Validation for Member collection
+    "Member": {
+      "$jsonSchema": {
+        "required": [
+          "_id",
+          "Firstname",
+          "Lastname",
+          "Department"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "objectId"
+          },
+          "Firstname": {
+            "bsonType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "Lastname": {
+            "bsonType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "Department": {
+            "bsonType": "object",
+            "required": [
+              "_id",
+              "Name"
+            ],
+            "properties": {
+              "_id": {
+                "bsonType": "objectId"
+              },
+              "Name": {
+                "bsonType": "string",
+                "minLength": 1,
+                "maxLength": 255
+              }
+            },
+            "maxProperties": 2,
+            "additionalProperties": false
+          }
+        },
+        "maxProperties": 4,
+        "additionalProperties": false
+      }
+    },
+    // Validation for Milestone collection
+    "Milestone": {
+      "$jsonSchema": {
+        "required": [
+          "_id",
+          "Name",
+          "Description",
+          "Start",
+          "End",
+          "IsCompleted",
+          "Member"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "objectId"
+          },
+          "Name": {
+            "bsonType": "string",
+            "minLength": 1,
+            "maxLength": 255
+          },
+          "Description": {
+            "bsonType": "string",
+            "minLength": 1
+          },
+          "Start": {
+            "bsonType": "date"
+          },
+          "End": {
+            "bsonType": "date"
+          },
+          "IsCompleted": {
+            "bsonType": "bool"
+          },
+          "Member": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object",
+              "required": [
+                "_id",
+                "Firstname",
+                "Lastname",
+                "Department"
+              ],
+              "properties": {
+                "_id": {
+                  "bsonType": "objectId"
+                },
+                "Firstname": {
+                  "bsonType": "string",
+                  "minLength": 1,
+                  "maxLength": 255
+                },
+                "Lastname": {
+                  "bsonType": "string",
+                  "minLength": 1,
+                  "maxLength": 255
+                },
+                "Department": {
+                  "bsonType": "object",
+                  "required": [
+                    "_id",
+                    "Name"
+                  ],
+                  "properties": {
+                    "_id": {
+                      "bsonType": "objectId"
+                    },
+                    "Name": {
+                      "bsonType": "string",
+                      "minLength": 1,
+                      "maxLength": 255
+                    }
+                  },
+                  "maxProperties": 2,
+                  "additionalProperties": false
+                }
+              },
+              "maxProperties": 4,
+              "additionalProperties": false
+            }
+          }
+        },
+        "maxProperties": 7,
+        "additionalProperties": false
+      }
+    }
+  }
+}

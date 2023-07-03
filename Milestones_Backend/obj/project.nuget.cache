@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y3xQOuhybB144OXl0EG0XN+cCr9JtSdd06h6PTwNpFs9NRrketYuJ8S/BfrvjChs9Qx4tH6jKeWUVYQXH+Rfow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OmidMalekzadehEshtaj\\source\\repos\\project_milestone_dashboard_backend\\Milestones_Backend\\Milestones_Backend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.openapi\\1.3.1\\microsoft.openapi.1.3.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.16.1\\microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\mongodb.bson\\2.16.1\\mongodb.bson.2.16.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\mongodb.driver\\2.16.1\\mongodb.driver.2.16.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\mongodb.driver.core\\2.16.1\\mongodb.driver.core.2.16.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.3\\mongodb.libmongocrypt.1.5.3.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\scrutor\\3.3.0\\scrutor.3.3.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\swashbuckle.aspnetcore.filters\\7.0.3\\swashbuckle.aspnetcore.filters.7.0.3.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\swashbuckle.aspnetcore.filters.abstractions\\7.0.3\\swashbuckle.aspnetcore.filters.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\OmidMalekzadehEshtaj\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
