@@ -1,0 +1,28 @@
+trigger:
+- main
+
+pool:
+  name: JAEMACOM_Doc
+
+variables:
+  buildConfiguration: 'Release'
+  dotNetVersion: '6.0.x'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    version: $(dotNetVersion)
+    includePreviewVersions: true
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    SourceFolder: $(System.DefaultWorkingDirectory)
+    Contents: |
+     **/bin/Release/**
+     !.*
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+- publish: $(Build.ArtifactStagingDirectory)
+  artifact: milestones-backend
+
